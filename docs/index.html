@@ -1,54 +1,118 @@
 <!DOCTYPE html>
 
-<html>
 <head>
-<title>Justin G</title>
-<link rel="stylesheet" href="style.css">
+  <title>Justin's Links</title>
+  <style>
+.body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #072321;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 128px;
+}
+
+.thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+}
+
+.name {
+color: #161603;
+display: flex;
+justify-content: center;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+background-color: #60f986;
+display: flex;
+align-items: center;
+padding: 5px
+}
+
+.link a {
+color: #001e1d;
+text-decoration: none;
+text-align: center;
+flex-grow: 1;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+    flex-grow: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+color: #0c0c0a;
+text-decoration: none;
+}
+
+  </style>
 </head>
 
 <body>
-<header>
-<img src="Chicago.jpg">
-    <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-</header>
-<main>
-<section id="hero">
-    <div class="section-inner">
-        <img src="moon.jpg" class="profile-img">
-        <h1>Hi, I'm Justin G</h1>
-    </div>
-</section>
-<section id="about">
-    <div class="section-inner">
-        <h2>About me</h2>
-        <p>I love everything</p>
-        <h3>Achievements</h3>
-        <ul>
-            <li>Associates in liberal sciences, 2022</li>
-            <li>I coded a website, 2023</li>
-        </ul>
-    </div>
-</section>
-<section id="contact">
-    <div class="section-inner">
-        <h2>Contact me</h2>
-        <p>You can find me on:</p>
-        <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Reddit</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-        <p>Or, you can <a href="stuwrkr-jguzm21@ad.uillinois.edu">send me an email</a>.</p>
-    </div>
-</section>
-</main>
-<footer>
-@ 2023
-</footer>
+  <div class="banner">
+    <img src="justin.jpg" alt="My picture" class="banner-image">
+  </div>
+
+  <div class="name">
+    Justin Guzman 
+  </div>
+
+  <div class="social-icons">
+    <a href="https://github.com/justin1111111111" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/justin-guzman-16b23b265/" target="_blank">
+      LinkedIn
+    </a>
+
+    <a href="https://www.instagram.com/justinjig4/" target="_blank">
+      Instagram
+    </a>
+
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="mac.jpg">
+
+    <a target="_blank" href="https://support.apple.com/en-us/HT201236">Mac Keybpard Shortcuts</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="DPI.jpg">
+
+    <a target="_blank" href="https://dpi.uillinois.edu/"> Discovery Partners Institute</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="Coding.jpg">
+
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a>
+  </div>
+
 </body>
+
 </html>
