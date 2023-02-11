@@ -1,116 +1,42 @@
 <!DOCTYPE html>
-
-<head>
-  <title>Justin's Links</title>
-  <style>
-.body {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-body{
-    background-color: #072321;
-}
-
-.banner-image {
-    width: 128px;
-    height: 128px;
-    object-fit: cover;
-    border-radius: 128px;
-}
-
-.thumbnail {
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    object-fit: cover;
-}
-
-.name {
-color: #efefe8;
-display: flex;
-justify-content: center;
-}
-
-.social-icons a {
-  display: flex;
-  justify-content: space-around;
-}
-
-.link {
-background-color: #deece2;
-display: flex;
-align-items: center;
-padding: 20px;
-border-radius: 500px;
-}
-
-.link a {
-color: #001e1d;
-text-decoration: none;
-text-align: center;
-flex-grow: 1;
-}
-
-.items {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 640px;
-    flex-grow: 1;
-}
-
-.banner {
-  display: flex;
-  justify-content: center;
-}
-
-.social-icons a {
-color: #fcfcfc;
-text-decoration: none;
-}
-
-  </style>
-</head>
-
-<body>
-  <div class="banner">
-    <img src="justin.jpg" alt="My picture" class="banner-image">
-  </div>
-
-  <div class="name">
-    Justin Guzman 
-  </div>
-
-  <div class="social-icons">
-    <a href="https://github.com/justin1111111111" target="_blank">
-      GitHub
-    </a>
-
-    <a href="https://www.linkedin.com/in/justin-guzman-16b23b265/" target="_blank">
-      LinkedIn
-    </a>
-
-  </div>
-
-  <div class="link">
-    <img class="thumbnail" src="mac.jpg">
-
-    <a target="_blank" href="https://support.apple.com/en-us/HT201236">Mac Keybpard Shortcuts</a>
-  </div>
-
-  <div class="link">
-    <img class="thumbnail" src="DPI.jpg">
-
-    <a target="_blank" href="https://dpi.uillinois.edu/"> Discovery Partners Institute</a>
-  </div>
-
-  <div class="link">
-    <img class="thumbnail" src="Coding.jpg">
-
-    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a>
-  </div>
-
-</body>
-
+<html>
+  <head>
+    <meta charset="utf" />
+<title>Justin's links</title>
+<link rel="stylesheet" href="./index.css" />
+  </head> 
+  <body>
+<main>
+  <header>
+    <img src="./justin.jpg" />
+    <h1>Justin Guzman</h1>
+  </header>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/justin-guzman-16b23b265/" target="_blank">
+        <img src="./Linked_in.jpg" alt="image of linked in" width="20" />
+        Justins linked In
+      </a>
+    </li>
+    <li>
+      <a href="https://support.apple.com/en-us/HT201236" target="_blank">
+        <img src="./mac.jpg" alt="picture of mac" width="20" /> 
+        Mac tricks
+      </a>
+    </li>
+    <li>
+      <a href="https://dpi.uillinois.edu/" target="_blank">
+        <img src="./DPI.jpg" alt="DPI" width="20" />
+        DPI
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/justin1111111111" target="_blank">
+        <img src="./github.jpg" alt="Github" width="20" />
+        Github 
+      </a>
+    </li>
+  </ul>
+</main>
+  </body>
 </html>
